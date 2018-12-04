@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- if $title -->{$title},<!-- /if --><!-- if $seo.title -->{$seo.title},<!-- /if -->{$config.title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/css.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/shou.js"></script>
+<script type="text/javascript" src="js/texiao.js"></script>
+</head>
+<body>
+<!-- include tpl=header -->
+<div class='zhengti zhong'>
+  <div class='zhengtineineil fl'>
+    <div class='zhengtineil fl zuozi'>
+      <div class='zhengtineils fl'> <img src='images/neixiaotu.jpg' class='fl' style='margin-left:7px;margin-top:7px;'>
+        <div class='zhengtineilsz fl'> </div>
+      </div>
+      <div class='zhengtineilx fl'> <a href='' class='zhengtineirsdan fl qhui'> </a> </div>
+    </div>
+	<!-- include tpl=block-contact -->
+  </div>
+  <div class='zhengtineineir fl'>
+    <div class='zhengtineineirs fl'> <img src='images/neixiaotu.jpg' class='fl' style='margin-left:7px;margin-top:7px;'>
+      <div class='zhengtineineirsl fl zuozi'> </div>
+    </div>
+    <div class='zhengtineineirx fl'>
+      <table style="width:300px;height:200px;margin-left:100px;margin-top:50px;" border="0" cellpadding="1" cellspacing="1" bgcolor="#ffffff">
+        <form name="addform" action="index.php?m=member&f=login_save" method="post">
+          <tr>
+            <td width="21%" align="right"></td>
+            <td width="79%">登录</td>
+          </tr>
+          <tr>
+            <td width="21%" align="right">账号:</td>
+            <td width="79%"><input name="username" type="text" id="username" size="20" class="key" />
+              <font color=#ff0000>*</font></td>
+          </tr>
+          <tr>
+            <td width="21%" align="right">密码:</td>
+            <td width="79%"><input name="password" type="password" id="password" size="21" class="key" />
+              <font color=#ff0000>*</font></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" value="登录" /></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- include tpl=footer -->
+</body>
+</html>
